@@ -13,8 +13,19 @@
 # Backend
 
 - créer projet node avec express done
-- route GET => liste des chaussettes (depuis la bdd)
+- route GET => liste des chaussettes
+- depuis la BDD
 - modifier le frontend pour mettre les chaussettes dans le reducer
 - POST / PUT / DELETE || POSTMAN
 - modifer le frontend
 - boutons : fetch => dispatch
+
+## vérifier en base
+
+```
+mongo
+show dbs
+use dbname
+show collections
+db.collectionname.find()
+```
